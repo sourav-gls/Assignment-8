@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -10,29 +11,22 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-4 w-30 p-2 shadow">
+         <Link href={"/home"} ><li className='text-[#244D3F]'>Home</li></Link>
+         <Link href={"/animals"}><li className='text-[#244D3F]'>All Animals</li></Link>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">PineApple</a>
+    <a className="btn font-semibold btn-ghost  text-xl text-[#244D3F]">QurbaniHat</a>
   </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-      <li><a>All Animals</a></li>
+  <div className="navbar-center hidden lg:flex ">
+    <ul className="menu menu-horizontal px-1 space-x-3">
+      <Link href={"/home"}><li className='text-[#244D3F] font-semibold'>Home</li></Link>
+      <Link href={"/animals"}><li className='text-[#244D3F] font-semibold'>All Animals</li></Link>
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Login</a>
-    <a className="btn">Register</a>
+  <div className="navbar-end sm:space-x-3 space-x-1">
+    <a className="btn rounded-xl text-[#244D3F] ">Login</a>
+    <a className="btn rounded-xl text-[#244D3F] ">Register</a>
   </div>
 </div>
     );
