@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const AnimalsCard = ({post}) => {
@@ -15,11 +16,11 @@ const AnimalsCard = ({post}) => {
        
         <div className="card-body">
           <h2 className="card-title">{post.name}</h2>
-          <p>{post.description}</p>
+          <p className='text-gray-500'>{post.description}</p>
           <div className="badge badge-outline badge-primary">{post.weight} KG</div>
           <h2 className='card-title'>{post.price} TK</h2>
           <div className="card-actions mt-3">
-          <div className="btn rounded-md">More Details ...</div>
+          <Link href={`/animals/${post.id}`}><div className="btn rounded-md">More Details ...</div></Link>
             
           </div>
         </div>
