@@ -9,7 +9,7 @@
     "age": 3,
     "location": "Bogura",
     "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural food.",
-    "image": "https://i.postimg.cc/1XcQ8m9p/cow1.jpg",
+    "image": "https://pixabay.com/photos/animal-cow-mammal-milk-livestock-8175061/",
     "category": "Large Animal",
     "stock": true
   },
@@ -23,7 +23,7 @@
     "age": 4,
     "location": "Dhaka",
     "description": "Large healthy cow with premium quality.",
-    "image": "https://i.postimg.cc/QdTt7Z5F/cow2.jpg",
+    "image": "https://pixabay.com/photos/cow-allg%c3%a4u-cows-ruminant-3089259/",
     "category": "Large Animal",
     "stock": true
   },
@@ -37,7 +37,7 @@
     "age": 5,
     "location": "Rajshahi",
     "description": "High-quality Sahiwal breed with excellent health.",
-    "image": "https://i.postimg.cc/Zn8nH9gR/cow3.jpg",
+    "image": "https://pixabay.com/photos/cow-holstein-cow-4269568/",
     "category": "Large Animal",
     "stock": true
   },
@@ -51,7 +51,7 @@
     "age": 3,
     "location": "Khulna",
     "description": "Strong and healthy brown deshi cow.",
-    "image": "https://i.postimg.cc/L6nT6w0h/cow4.jpg",
+    "image": "https://pixabay.com/photos/cow-prairie-milk-cow-cattle-7874583/",
     "category": "Large Animal",
     "stock": false
   },
@@ -107,7 +107,7 @@
     "age": 2.5,
     "location": "Dhaka",
     "description": "Large size Jamunapari goat with ভালো weight.",
-    "image": "https://i.postimg.cc/y6cFhQkX/goat3.jpg",
+    "image": "https://sl.bing.net/jKqKW7AQEs8",
     "category": "Small Animal",
     "stock": true
   },
@@ -121,7 +121,7 @@
     "age": 3,
     "location": "Sylhet",
     "description": "Premium Boer cross goat, strong and healthy.",
-    "image": "https://i.postimg.cc/4xYc5XjF/goat4.jpg",
+    "image": "https://sl.bing.net/e7CAAcqOPMO",
     "category": "Small Animal",
     "stock": true
   },
@@ -135,7 +135,7 @@
     "age": 1,
     "location": "Mymensingh",
     "description": "Small but healthy goat, budget-friendly option.",
-    "image": "https://i.postimg.cc/G2zXk9vW/goat5.jpg",
+    "image": "https://sl.bing.net/e7CAAcqOPMO",
     "category": "Small Animal",
     "stock": true
   }
