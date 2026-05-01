@@ -10,7 +10,7 @@ const PostCard = ({post}) => {
                 alt="Livestock Image"
                 width={300}
                 height={200}
-                className='rounded-xl'
+                className='rounded-xl h-75'
                />
  
   <div className="card-body">
