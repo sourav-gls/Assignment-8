@@ -9,7 +9,7 @@
     "age": 3,
     "location": "Bogura",
     "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural food.",
-    "image": "https://pixabay.com/photos/animal-cow-mammal-milk-livestock-8175061/",
+    "image": "https://cdn.pixabay.com/photo/2019/07/27/10/29/cow-4269568_1280.jpg",
     "category": "Large Animal",
     "stock": true
   },
@@ -23,7 +23,7 @@
     "age": 4,
     "location": "Dhaka",
     "description": "Large healthy cow with premium quality.",
-    "image": "https://pixabay.com/photos/cow-allg%c3%a4u-cows-ruminant-3089259/",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/09/32/cow-1868264_1280.jpg",
     "category": "Large Animal",
     "stock": true
   },
@@ -37,7 +37,7 @@
     "age": 5,
     "location": "Rajshahi",
     "description": "High-quality Sahiwal breed with excellent health.",
-    "image": "https://pixabay.com/images/download/naknaknak-animal-8175061_1920.jpg",
+    "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/cow-1995057_1280.jpg",
     "category": "Large Animal",
     "stock": true
   },
@@ -51,7 +51,7 @@
     "age": 3,
     "location": "Khulna",
     "description": "Strong and healthy brown deshi cow.",
-    "image": "https://pixabay.com/photos/cow-prairie-milk-cow-cattle-7874583/",
+    "image": "https://cdn.pixabay.com/photo/2018/05/21/16/38/cow-3416821_1280.jpg",
     "category": "Large Animal",
     "stock": false
   },
