@@ -4,9 +4,15 @@ import React from 'react';
 const PostCard = ({post}) => {
     return (
         <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-   
-  </figure>
+  
+    <Image
+               src="https://pixabay.com/photos/cow-holstein-cow-4269568/"
+                alt="Livestock Image"
+                width={600}
+                height={550}
+                className='rounded-xl'
+               />
+ 
   <div className="card-body">
     <h2 className="card-title">
       {post.name}
