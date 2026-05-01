@@ -9,7 +9,7 @@
     "age": 3,
     "location": "Bogura",
     "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural food.",
-    "image": "https://cdn.pixabay.com/photo/2019/07/27/10/29/cow-4269568_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?q=80&w=788&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Large Animal",
     "stock": true
   },
@@ -23,7 +23,7 @@
     "age": 4,
     "location": "Dhaka",
     "description": "Large healthy cow with premium quality.",
-    "image": "https://cdn.pixabay.com/photo/2016/11/29/09/32/cow-1868264_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1593768697824-f31b967e6c55?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Large Animal",
     "stock": true
   },
@@ -37,7 +37,7 @@
     "age": 5,
     "location": "Rajshahi",
     "description": "High-quality Sahiwal breed with excellent health.",
-    "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/cow-1995057_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1595365691689-6b7b4e1970cf?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Large Animal",
     "stock": true
   },
@@ -51,7 +51,7 @@
     "age": 3,
     "location": "Khulna",
     "description": "Strong and healthy brown deshi cow.",
-    "image": "https://cdn.pixabay.com/photo/2018/05/21/16/38/cow-3416821_1280.jpg",
+    "image": "https://images.unsplash.com/photo-1604860428762-f55cea62b7a0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Large Animal",
     "stock": false
   },
@@ -65,7 +65,7 @@
     "age": 3.5,
     "location": "Chattogram",
     "description": "Hybrid cow with good weight and সুন্দর appearance.",
-    "image": "https://i.postimg.cc/3r8Rr9mG/cow5.jpg",
+    "image": "https://images.unsplash.com/photo-1607771459220-36163d88974c?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Large Animal",
     "stock": true
   },
@@ -79,7 +79,7 @@
     "age": 2,
     "location": "Pabna",
     "description": "Popular Black Bengal goat, খুব healthy.",
-    "image": "https://i.postimg.cc/8kzLhF9r/goat1.jpg",
+    "image": "https://plus.unsplash.com/premium_photo-1667099521475-fcd0e941b4ab?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Small Animal",
     "stock": true
   },
@@ -93,7 +93,7 @@
     "age": 1.5,
     "location": "Barisal",
     "description": "Affordable white goat suitable for Qurbani.",
-    "image": "https://i.postimg.cc/7YkFQ0kM/goat2.jpg",
+    "image": "https://images.unsplash.com/photo-1506076177893-89d54794ef41?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Small Animal",
     "stock": false
   },
@@ -107,7 +107,7 @@
     "age": 2.5,
     "location": "Dhaka",
     "description": "Large size Jamunapari goat with ভালো weight.",
-    "image": "https://sl.bing.net/jKqKW7AQEs8",
+    "image": "https://images.unsplash.com/photo-1573578160998-4f4c7b023aec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Small Animal",
     "stock": true
   },
@@ -121,7 +121,7 @@
     "age": 3,
     "location": "Sylhet",
     "description": "Premium Boer cross goat, strong and healthy.",
-    "image": "https://sl.bing.net/e7CAAcqOPMO",
+    "image": "https://images.unsplash.com/photo-1557431177-d277c24390e5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Small Animal",
     "stock": true
   },
@@ -135,7 +135,7 @@
     "age": 1,
     "location": "Mymensingh",
     "description": "Small but healthy goat, budget-friendly option.",
-    "image": "https://sl.bing.net/e7CAAcqOPMO",
+    "image": "https://images.unsplash.com/photo-1623692747373-b9b1e64479ce?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Small Animal",
     "stock": true
   }
