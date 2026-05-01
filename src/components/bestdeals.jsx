@@ -7,12 +7,12 @@ const BestDeals = async () => {
   const topPosts = posts.slice(0,4)
   
     return ( 
-        <>
-        <h1>Best Deals</h1>
-        <div>
+        <div className="bg-base-200 pt-10 pb-10 ">
+        <h1 className="text-4xl items-center justify-center text-center  mb-8 font-semibold">Top Collections</h1>
+        <div className="grid grid-cols-4 gap-10 w-5/6 mx-auto">
             {topPosts.map(post => <PostCard key={post.id} post={post}></PostCard>)}
         </div>
-        </>
+        </div>
     );
 };
 

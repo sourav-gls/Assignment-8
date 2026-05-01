@@ -1,11 +1,18 @@
+import AnimalsCard from "@/components/animalsCard";
 
 
-const page = () => {
+const Animals = async() => {
+  const data = await fetch('https://assignment-8-omega-nine.vercel.app/data.json')
+  const posts = await data.json()
+  console.log(posts)
     return (
         <div>
-            all
+            {
+                posts.map(post =><AnimalsCard key={post.id} post={post}></AnimalsCard>)
+            }
+            
         </div>
     );
 };
 
-export default page;
+export default Animals;
