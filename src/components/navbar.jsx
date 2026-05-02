@@ -26,7 +26,8 @@ const Navbar = () => {
   </div>
   <div className="navbar-end sm:space-x-3 space-x-1">
     
-    <Link href={"/login"} className='btn rounded-xl text-[#244D3F]'>Login</Link>
+    <Link href={"/login"} className='btn rounded-xl text-[#244D3F]'>Login
+    </Link>
     <Link href={"/signup"} className='btn rounded-xl text-[#244D3F]'>Register</Link>
   </div>
 </div>

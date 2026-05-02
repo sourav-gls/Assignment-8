@@ -14,13 +14,29 @@ import {
 import { GrGoogle } from "react-icons/gr";
 
 export default function SignInPage() {
+   const onSubmit = async (e) =>{
+    e.preventDefault();
+
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+
+    const {data, error} = await authClient.signIn.email({
+      
+      email,
+      password,
+      callbackURL:"/home" ,
+      
+    })
+    console.log({data ,error});
+
+  }
   
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-10 mb-10">
       <h1 className="text-center text-2xl font-bold">Sign In</h1>
 
-      <Form className="flex w-96 mx-auto flex-col gap-4" >
+      <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit} >
         <TextField
           isRequired
           name="email"
@@ -68,7 +84,7 @@ export default function SignInPage() {
         <div className="flex gap-2">
           <Button type="submit">
             <Check />
-            Submit
+            Sign In
           </Button>
           <Button type="reset" variant="secondary">
             Reset
