@@ -18,5 +18,5 @@ const session = await auth.api.getSession({
 // export default function proxy(request) { ... }
  
 export const config = {
-  matcher: '/animals/:path*',
+  matcher: '/animals/:id',
 }
