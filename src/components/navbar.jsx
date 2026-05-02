@@ -1,7 +1,20 @@
+"use client"
+import { authClient } from '@/lib/auth-client';
+import { ArrowRightFromSquare } from '@gravity-ui/icons';
+import { Avatar } from '@heroui/react';
 import Link from 'next/link';
 import React from 'react';
+import {PersonFill} from '@gravity-ui/icons';
 
 const Navbar = () => {
+   const userData = authClient.useSession();
+   const user = userData.data?.user;
+   console.log(user);
+
+   const handleSignOut =async() =>{
+     await authClient.signOut();
+   }
+
     return (
      <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -24,12 +37,23 @@ const Navbar = () => {
       <Link href={"/animals"}><li className='text-[#244D3F] font-semibold'>All Animals</li></Link>
     </ul>
   </div>
-  <div className="navbar-end sm:space-x-3 space-x-1">
+  {!user && <div className="navbar-end sm:space-x-3 space-x-1">
     
     <Link href={"/login"} className='btn rounded-xl text-[#244D3F]'>Login
     </Link>
     <Link href={"/signup"} className='btn rounded-xl text-[#244D3F]'>Register</Link>
-  </div>
+  </div>}
+  {
+    user && <div className="navbar-end sm:space-x-3 space-x-1">
+      <Link href={"/profile"}>
+      <Avatar>
+        <Avatar.Image alt="user image" src={user?.image} referrerPolicy='no-referrer' />
+        <Avatar.Fallback><PersonFill/></Avatar.Fallback>
+      </Avatar>
+      </Link>
+    <button onClick={ handleSignOut} className='btn rounded-xl text-[#244D3F]'><ArrowRightFromSquare /> </button>
+  </div>}
+  
 </div>
     );
 };
