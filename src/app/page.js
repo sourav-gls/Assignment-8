@@ -1,9 +1,16 @@
-import Image from "next/image";
+import Banner from '@/components/banner';
+import Hero from '@/components/banner';
+import BestDeals from '@/components/bestdeals';
 
-export default function Home() {
-  return (
-    <div >
-      
-    </div>
-  );
-}
+import React from 'react';
+
+const home = () => {
+    return (
+        <div>
+           <Banner></Banner>
+          <BestDeals></BestDeals>
+        </div>
+    );
+};
+
+export default home;
