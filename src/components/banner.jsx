@@ -6,7 +6,7 @@ import React from 'react';
 const Banner = () => {
     return (
         <div className=' bg-base-300'>
-            <div className='flex justify-between mx-auto p-25 gap-4'>
+            <div className='sm:flex-row flex-col flex justify-center p-5 mx-auto sm:p-25 gap-4'>
         <div className='justify-center flex flex-col'>
             <div className="badge badge-soft badge-warning">Eid-Ul-Azaha</div>
             <h1 className='text-5xl font-semibold text-[#244D3F] mb-5 mt-3'>Livestock Booking Platform</h1>

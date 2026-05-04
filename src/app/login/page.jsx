@@ -14,33 +14,31 @@ import {
 import { google } from "better-auth";
 import { GrGoogle } from "react-icons/gr";
 
-export default function SignInPage() {
-   const onSubmit = async (e) =>{
+export default function Login() {
+  
+  const onSubmit = async (e) => {
     e.preventDefault();
 
     const email = e.target.email.value;
     const password = e.target.password.value;
 
-    const {data, error} = await authClient.signIn.email({
-      
+    const { data, error } = await authClient.signIn.email({
       email,
       password,
-      callbackURL:"/" ,
-      
-    })
-    console.log({data ,error});
+      callbackURL: "/",
+    });
 
+    console.log({ data, error });
   };
 
-  const handleGoogleLogin = async() =>{
-     await authClient.signIn.social({
-      provider:"google" 
-     })
+  const handleGoogleLogin = async () => {
+    await authClient.signIn.social({
+        provider: 'google'
+    })
   }
-  
 
   return (
-    <Card className="border mx-auto w-125 py-10 mt-10 mb-10">
+    <Card className="border mx-auto sm:w-125 py-10 mt-10 mb-10">
       <h1 className="text-center text-2xl font-bold">Sign In</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit} >

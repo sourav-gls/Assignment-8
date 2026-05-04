@@ -1,3 +1,4 @@
+import { BookModal } from '@/components/bookModal';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -7,8 +8,18 @@ import { IoLocationOutline } from 'react-icons/io5';
 const Details = async({params}) => {
     const {id} = await params
     
-   const data = await fetch('https://assignment-8-omega-nine.vercel.app/data.json')
+   
+   const data = await  fetch('http://localhost:3000/data.json' ,
+    {cache: 'no-store'
+
+    }
+   );
+   if (!data.ok){
+    throw new Error('failed to fetch data')
+   }
    const posts = await data.json()
+
+   
    const expectedPost = posts.find(p=>p.id == id);
    console.log(expectedPost);
   
@@ -16,8 +27,8 @@ const Details = async({params}) => {
 
 
     return (
-        <div className="card bg-base-300  shadow-sm grid grid-cols-2 grid-rows-1 sm:w-3/5 mx-auto rounded-2xl mt-10 mb-10">
-    <div className='col-span-1'>
+        <div className="card bg-base-300  shadow-sm grid sm:grid-cols-2 grid-rows-1 sm:w-3/5 mx-auto rounded-2xl mt-10 mb-10">
+    <div className='col-span-1 items-center flex justify-center'>
     <Image
                src={expectedPost.image}
                 alt="Livestock Image"
@@ -27,7 +38,7 @@ const Details = async({params}) => {
                />
     </div>
  
-  <div className=" col-span-1 flex flex-col justify-center space-y-2">
+  <div className=" col-span-1 flex flex-col justify-center items-center sm:items-start mt-5 sm:mt-0 space-y-2">
     <div className="badge badge-primary">{expectedPost.breed}</div>
     <h2 className="text-2xl font-semibold mt-3" >{expectedPost.name}</h2>
     <p className='text-gray-500'>{expectedPost.description}</p>
@@ -49,7 +60,7 @@ const Details = async({params}) => {
   </div>
     <h2 className='text-2xl font-semibold'>{expectedPost.price} TK</h2>
    <div className="card-actions mt-8">
-      <Link href={"/animals"}><div className="btn rounded-lg bg-[#244D3F] text-white">Book Now</div></Link>
+      <BookModal></BookModal>
       <Link href={"/animals"}><div className="btn rounded-lg bg-red-500 text-white">Go Back</div></Link>
     </div>
   </div>
