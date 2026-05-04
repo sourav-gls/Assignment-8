@@ -1,13 +1,22 @@
 import { BookModal } from '@/components/bookModal';
+import { auth } from '@/lib/auth';
+import { headers } from 'next/headers';
 import Image from 'next/image';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
 import React from 'react';
 import { FaLocationPin } from 'react-icons/fa6';
 import { IoLocationOutline } from 'react-icons/io5';
 
 const Details = async({params}) => {
     const {id} = await params
-    
+
+    const session = await auth.api.getSession({
+    headers: await headers(),
+  })
+    if (!session) {
+    redirect("/login");
+  }
    
    const data = await  fetch('http://localhost:3000/data.json' ,
     {cache: 'no-store'
