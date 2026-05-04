@@ -6,7 +6,7 @@ import AnimalsCard from "@/components/animalsCard";
 const Animals = async() => {
      
        
-  const data = await  fetch('http://localhost:3000/data.json',
+  const data = await  fetch('https://assignment-8-omega-nine.vercel.app/data.json',
     {cache: 'no-store'
 
     }
