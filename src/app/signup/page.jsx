@@ -33,7 +33,7 @@ const router = useRouter()
     })
 
     if(!error){
-      router.push("/home")
+      router.push("/")
     }
 
   }

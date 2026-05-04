@@ -1,10 +1,19 @@
+import { cache } from "react";
 import PostCard from "./postCard";
 
 
 const BestDeals = async () => {
-  const data = await fetch('https://assignment-8-omega-nine.vercel.app/data.json')
-  const posts = await data.json()
-  const topPosts = posts.slice(0,4)
+
+   const data = await  fetch('https://assignment-8-omega-nine.vercel.app/data.json' ,
+    {cache: 'no-store'
+
+    }
+   );
+   if (!data.ok){
+    throw new Error('failed to fetch data')
+   }
+  const posts = await data.json();
+  const topPosts = posts.slice(0,4) ;
   
     return ( 
         <div className="bg-base-200 pt-10 pb-10 ">

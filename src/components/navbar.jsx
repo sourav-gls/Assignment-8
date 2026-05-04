@@ -9,7 +9,7 @@ import {PersonFill} from '@gravity-ui/icons';
 const Navbar = () => {
    const userData = authClient.useSession();
    const user = userData.data?.user;
-   console.log(user);
+   
 
    const handleSignOut =async() =>{
      await authClient.signOut();
